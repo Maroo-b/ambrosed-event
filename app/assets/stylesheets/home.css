@@ -1,0 +1,163 @@
+
+body{
+  padding-top: 50px;
+}
+header .navbar-brand {
+  position: relative;
+  }
+.brand {
+  height: 40px;
+  position: absolute;
+  top: 7px;
+}
+header .navbar{
+  border-radius: 0;
+  border: 0;
+  background: rgba(247,52,17,1);
+background: -moz-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,52,17,1)), color-stop(23%, rgba(240,78,60,1)), color-stop(42%, rgba(240,115,99,1)), color-stop(100%, rgba(247,247,247,1)));
+background: -webkit-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
+background: -o-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
+background: -ms-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
+background: linear-gradient(to right, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f73411', endColorstr='#f7f7f7', GradientType=1 );
+}
+
+
+header .navbar-default  .navbar-nav > li > a {
+   color: #337ab7;
+}
+
+header .navbar-default .navbar-nav .active a{
+  font-weight: bold;
+  color: #fff;
+  background: transparent;
+  border-bottom: 4px solid #337ab7;
+}
+header .navbar-default .navbar-nav .active a:hover{
+  color: #E15D5F;
+  background: transparent;
+  text-shadow: none;
+  }
+
+
+  time.icon
+{
+  font-size: 1em; /* change icon size */
+  display: block;
+  position: relative;
+  width: 7em;
+  height: 7em;
+  background-color: #fff;
+  margin: 2em auto;
+  border-radius: 0.6em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: rotate(0deg) skewY(0deg);
+  -webkit-transform-origin: 50% 10%;
+  transform-origin: 50% 10%;
+}
+
+time.icon *
+{
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+time.icon strong
+{
+  position: absolute;
+  top: 0;
+  padding: 0.4em 0;
+  color: #fff;
+   background: rgba(247,52,17,1);
+background: -moz-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,52,17,1)), color-stop(23%, rgba(240,78,60,1)), color-stop(42%, rgba(240,115,99,1)), color-stop(100%, rgba(247,247,247,1)));
+background: -webkit-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
+background: -o-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
+background: -ms-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
+background: linear-gradient(to right, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
+  border-bottom: 1px dashed #f37302;
+  box-shadow: 0 2px 0 #fd9f1b;
+}
+
+time.icon em
+{
+  position: absolute;
+  bottom: 0.3em;
+  color: red;
+}
+
+time.icon span
+{
+  width: 100%;
+  font-size: 2.8em;
+  letter-spacing: -0.05em;
+  padding-top: 0.8em;
+  color: #2f2f2f;
+}
+.page{
+  padding: 50px 0;
+}
+#home{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('restaurant.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  height: 100vh;
+}
+#home h1, #home h2 {
+  color: #fff;
+}
+#home .jumbotron{
+  background: transparent;
+}
+
+
+
+.img-circle{
+  width: 100%;
+}
+
+.speaker{
+  margin: 10px 0;
+}
+
+#sponsors th{
+  border: none;
+}
+
+#sponsors  .table > tbody > tr:nth-child(2) > td{
+  border-top: none;
+}
+#sponsors  .table > tbody > tr > td{
+  height: 35px;
+}
+.gold{
+  height: 50px;
+  background: #CDAD00;
+  text-align: center;
+  border-radius: 20px;
+  vertical-align: center;
+}
+
+.silver{
+  height: 50px;
+  background: #C0C0C0;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#map {
+  height: 450px;
+  margin-bottom: 20px;
+}
