@@ -1,0 +1,20 @@
+{
+  "name": "be_ambrosed",
+  "version": "0.0.0",
+  "authors": [
+    "Marouen Bousnina <bousnina.marouen@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "fontawesome": "~4.4.0"
+  }
+}
