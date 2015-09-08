@@ -1,10 +1,10 @@
 $(document).ready(function(){
   function initialize() {
-  var myLatLng = new google.maps.LatLng(44.5403, -78.5463);
+  var myLatLng = new google.maps.LatLng(37.7873752, -122.4088985);
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
           center: myLatLng ,
-          zoom: 10,
+          zoom: 15,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(mapCanvas, mapOptions)

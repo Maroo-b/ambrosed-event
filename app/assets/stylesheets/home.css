@@ -1,6 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
 
 body{
-  padding-top: 50px;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+.page h2{
+  margin-bottom: 30px;
 }
 header .navbar-brand {
   position: relative;
@@ -13,29 +25,28 @@ header .navbar-brand {
 header .navbar{
   border-radius: 0;
   border: 0;
-  background: rgba(247,52,17,1);
-background: -moz-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,52,17,1)), color-stop(23%, rgba(240,78,60,1)), color-stop(42%, rgba(240,115,99,1)), color-stop(100%, rgba(247,247,247,1)));
-background: -webkit-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
-background: -o-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
-background: -ms-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
-background: linear-gradient(to right, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f73411', endColorstr='#f7f7f7', GradientType=1 );
+  background: #bf1e2e;
 }
 
 
 header .navbar-default  .navbar-nav > li > a {
-   color: #337ab7;
+   color: #fff;
 }
-
+header .navbar-default  .navbar-nav > li > a:hover {
+   color: #fff;
+}
 header .navbar-default .navbar-nav .active a{
   font-weight: bold;
   color: #fff;
   background: transparent;
   border-bottom: 4px solid #337ab7;
 }
+header .navbar-default .navbar-nav > .active > a:focus{
+  background: transparent;
+  color: #fff;
+}
 header .navbar-default .navbar-nav .active a:hover{
-  color: #E15D5F;
+  color: #fff;
   background: transparent;
   text-shadow: none;
   }
@@ -75,13 +86,7 @@ time.icon strong
   top: 0;
   padding: 0.4em 0;
   color: #fff;
-   background: rgba(247,52,17,1);
-background: -moz-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,52,17,1)), color-stop(23%, rgba(240,78,60,1)), color-stop(42%, rgba(240,115,99,1)), color-stop(100%, rgba(247,247,247,1)));
-background: -webkit-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
-background: -o-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
-background: -ms-linear-gradient(left, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
-background: linear-gradient(to right, rgba(247,52,17,1) 0%, rgba(240,78,60,1) 23%, rgba(240,115,99,1) 42%, rgba(247,247,247,1) 100%);
+  background: #bf1e2e;
   border-bottom: 1px dashed #f37302;
   box-shadow: 0 2px 0 #fd9f1b;
 }
@@ -90,7 +95,7 @@ time.icon em
 {
   position: absolute;
   bottom: 0.3em;
-  color: red;
+  color: #bf1e2e;
 }
 
 time.icon span
@@ -105,6 +110,7 @@ time.icon span
   padding: 50px 0;
 }
 #home{
+  padding-top: 10%;
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -122,7 +128,10 @@ time.icon span
   background: transparent;
 }
 
-
+#overview p{
+  color: #000;
+  font-weight: 500;
+}
 
 .img-circle{
   width: 100%;
@@ -132,32 +141,22 @@ time.icon span
   margin: 10px 0;
 }
 
-#sponsors th{
-  border: none;
+.speaker p{
+  font-size: 0.8em;
 }
 
-#sponsors  .table > tbody > tr:nth-child(2) > td{
-  border-top: none;
-}
-#sponsors  .table > tbody > tr > td{
-  height: 35px;
-}
-.gold{
-  height: 50px;
-  background: #CDAD00;
-  text-align: center;
-  border-radius: 20px;
-  vertical-align: center;
+.speaker h3{
+  font-weight: 400;
+  padding-bottom: 10px;
+  font-size: 1.2em;
 }
 
-.silver{
-  height: 50px;
-  background: #C0C0C0;
-  text-align: center;
-  border-radius: 20px;
-}
 
 #map {
   height: 450px;
   margin-bottom: 20px;
+}
+
+footer p{
+  font-size: 0.8em;
 }
