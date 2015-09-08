@@ -25,6 +25,7 @@ gem "figaro"
 gem 'delayed_job_active_record'
 gem 'hpricot'
 gem 'premailer-rails'
+gem 'puma'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
